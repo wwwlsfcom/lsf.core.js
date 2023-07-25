@@ -1,7 +1,7 @@
 # qcloud-three-view
 
 #### 介绍
-基于threejs封装的 viewer, 提供最常用的功能并方便使用
+javascript库, 提供常用的功能模块
 
 #### 软件架构
 软件架构说明

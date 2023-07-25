@@ -1,6 +1,6 @@
 {
-  "name": "lsf-core",
-  "version": "1.0.1",
+  "name": "lsf-core-js",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "test": "qunit",

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "esnext",
+    "strict": false,
+    "jsx": "react",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "outDir": "./dist",
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*.tsx",
+    "typed-css.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

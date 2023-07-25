@@ -1,0 +1,28 @@
+{
+  "name": "lsf-core",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "qunit",
+    "build": "babel src --out-dir dist  --delete-dir-on-start --extensions \".ts,.js\" && npm link",
+    "dev": "concurrently --names \"ROLLUP,HTTP\" -c \"bgBlue.bold,bgGreen.bold\" \"rollup -c utils/build/rollup.config.js -w -m inline\" \"servez -p 8080\""
+  },
+  "files": [
+    "/dist/"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-typescript": "^7.18.6",
+    "lil-gui": "^0.17.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "qunit": "^2.19.1",
+    "servez": "^1.14.1"
+  }
+}

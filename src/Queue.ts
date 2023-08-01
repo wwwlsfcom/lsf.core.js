@@ -1,5 +1,6 @@
-export default class Queue {
+class Queue {
     private items: any[];
+
     constructor() {
         this.items = []
     }
@@ -39,3 +40,5 @@ export default class Queue {
         console.log(this.items.toString())
     }
 }
+
+exports.Queue = Queue
